@@ -11,4 +11,6 @@
     <color name="greenBtn">#007705</color>
     <color name="blueBtn">#000C77</color>
     <color name="cardWhite">#BFFFFFFF</color>
+    <color name="grey">#515151</color>
+    <color name="yellowBtn">#B68E00</color>
 </resources>

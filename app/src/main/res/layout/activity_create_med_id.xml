@@ -41,26 +41,25 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="16dp">
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/custom_input"
-            android:inputType="textPersonName"
             android:hint="@string/ht3_hint_name"
-            android:padding="15dp"
-            />
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/custom_input"
             android:hint="@string/ht3_hint_birthday"
             android:inputType="textPersonName"
-            android:padding="15dp"
-            android:layout_marginTop="10dp"
-            />
+            android:padding="15dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -70,13 +69,13 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2.5dp"
                 android:layout_weight="1"
                 android:background="@drawable/custom_input"
                 android:hint="@string/ht3_hint_height"
                 android:inputType="textPersonName"
                 android:padding="15dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="2.5dp"
 
 
                 />
@@ -84,46 +83,43 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/custom_input"
                 android:hint="@string/ht3_hint_weight"
                 android:inputType="textPersonName"
-                android:padding="15dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="2.5dp"
-                />
+                android:padding="15dp" />
         </LinearLayout>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/custom_input"
             android:hint="@string/ht3_hint_blood"
             android:inputType="textPersonName"
-            android:padding="15dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="2.5dp"
-            />
+            android:padding="15dp" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="@drawable/custom_input"
-            android:hint="@string/ht3_hint_blood"
-            android:inputType="textPersonName"
-            android:padding="15dp"
-            android:layout_marginTop="10dp"
             android:layout_marginLeft="2.5dp"
-            />
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_input"
+            android:hint="@string/ht3_hint_info"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
 
         <Button
             android:id="@+id/medIdBtn"
             style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_marginTop="10dp"
             android:backgroundTint="@color/black"
             android:fontFamily="@font/poppins_medium"
-            android:layout_marginTop="10dp"
             android:text="@string/ht3_btn_submit"
             android:textSize="15sp" />
 
