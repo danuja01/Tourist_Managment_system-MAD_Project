@@ -2,7 +2,10 @@ package com.example.madproject.Medical;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import com.example.madproject.R;
 
@@ -13,4 +16,5 @@ public class EmptyMedId extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_empty_med_id);
     }
+
 }

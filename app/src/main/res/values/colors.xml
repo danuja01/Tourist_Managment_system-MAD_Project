@@ -10,4 +10,5 @@
     <color name="redBtn">#A40000</color>
     <color name="greenBtn">#007705</color>
     <color name="blueBtn">#000C77</color>
+    <color name="cardWhite">#BFFFFFFF</color>
 </resources>

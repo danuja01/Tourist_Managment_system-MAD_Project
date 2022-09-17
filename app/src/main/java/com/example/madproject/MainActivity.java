@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.madproject.Medical.EmptyMedId;
 import com.example.madproject.Medical.HealthTracker;
 
 public class MainActivity extends AppCompatActivity {

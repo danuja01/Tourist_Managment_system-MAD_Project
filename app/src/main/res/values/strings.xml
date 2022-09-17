@@ -5,4 +5,6 @@
     <string name="ht1_btn_medId">MEDICAL ID</string>
     <string name="ht1_btn_medcation">MEDICATION TRACKER</string>
     <string name="ht1_btn_bmi">BMI CALCULATOR</string>
+    <string name="ht2_title">NO AVAILABLE MEDICAL ID</string>
+    <string name="ht2_btn">CREATE</string>
 </resources>
