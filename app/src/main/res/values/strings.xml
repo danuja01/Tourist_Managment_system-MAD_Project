@@ -27,4 +27,10 @@
     <string name="ht4_info">ADITIONAL INFORMATION</string>
     <string name="ht4_btn_update">UPDATE</string>
     <string name="ht4_btn_delete">DELETE</string>
+    <string name="ht5_title">MEDICATION DETAILS</string>
+    <string name="ht5_caption">Enter your medication details</string>
+    <string name="ht5_hint_name">name of the medication</string>
+    <string name="ht5_hint_daytime">morning/night</string>
+    <string name="ht5_hint_time">time(10.00)</string>
+    <string name="ht5_hint_ampm">am/pm</string>
 </resources>

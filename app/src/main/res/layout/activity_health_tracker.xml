@@ -56,20 +56,21 @@
         android:layout_marginBottom="10sp"
         android:backgroundTint="@color/redBtn"
         android:fontFamily="@font/poppins_medium"
-        android:onClick="click"
+        android:onClick="clickMedId"
         android:text="@string/ht1_btn_medId"
         android:textSize="15sp" />
+
     <Button
         android:id="@+id/medTrackerBtn"
+        style="@style/Widget.Material3.Button"
         android:layout_width="match_parent"
         android:layout_height="28pt"
         android:layout_marginBottom="10sp"
-        android:fontFamily="@font/poppins_medium"
-        android:text="@string/ht1_btn_medcation"
-        android:textSize="15sp"
         android:backgroundTint="@color/greenBtn"
-        style="@style/Widget.Material3.Button"
-        />
+        android:fontFamily="@font/poppins_medium"
+        android:onClick="clickMedication"
+        android:text="@string/ht1_btn_medcation"
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/bmiBtn"

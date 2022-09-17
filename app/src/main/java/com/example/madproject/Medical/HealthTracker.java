@@ -16,8 +16,13 @@ public class HealthTracker extends AppCompatActivity {
         setContentView(R.layout.activity_health_tracker);
     }
 
-    public void click(View view){
-        Intent intent = new Intent(this, EmptyMedId.class);
-        startActivity(intent);
+    public void clickMedId(View view){
+        Intent medId = new Intent(this, EmptyMedId.class);
+        startActivity(medId);
+    }
+
+    public void clickMedication(View v) {
+        Intent medication = new Intent(this, MedicationForm.class);
+        startActivity(medication);
     }
 }

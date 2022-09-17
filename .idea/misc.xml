@@ -7,12 +7,14 @@
         <entry key="app/src/main/res/drawable/custom_input.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/gradient_background.xml" value="0.328" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1385" />
+        <entry key="app/src/main/res/drawable/shadow_img.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_create_med_id.xml" value="0.287823486328125" />
         <entry key="app/src/main/res/layout/activity_empty_med_id.xml" value="0.26623026529947913" />
         <entry key="app/src/main/res/layout/activity_empty_medical_id.xml" value="0.24597625732421877" />
-        <entry key="app/src/main/res/layout/activity_health_tracker.xml" value="0.26662139892578124" />
+        <entry key="app/src/main/res/layout/activity_health_tracker.xml" value="0.21559633027522937" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2712962962962963" />
         <entry key="app/src/main/res/layout/activity_med_id.xml" value="0.2865927082218535" />
+        <entry key="app/src/main/res/layout/activity_medication_form.xml" value="0.2601851851851852" />
       </map>
     </option>
   </component>
