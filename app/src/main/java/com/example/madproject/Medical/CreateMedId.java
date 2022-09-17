@@ -1,8 +1,12 @@
-package com.example.madproject;
+package com.example.madproject.Medical;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+
+import com.example.madproject.R;
 
 public class CreateMedId extends AppCompatActivity {
 
@@ -11,4 +15,6 @@ public class CreateMedId extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_med_id);
     }
+
+
 }

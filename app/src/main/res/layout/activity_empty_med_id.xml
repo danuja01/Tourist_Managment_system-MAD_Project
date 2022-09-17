@@ -15,10 +15,9 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardElevation="0dp"
         android:backgroundTint="@color/cardWhite"
-        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.CardView"
-        >
+        app:cardElevation="0dp"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.CardView">
 
 
         <LinearLayout
@@ -26,17 +25,18 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp">
+
             <TextView
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="@string/ht2_title"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textFontWeight="900"
                 android:textSize="32sp"
-                android:layout_marginTop="30sp"
 
                 />
 
@@ -44,9 +44,8 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="227dp"
-                android:src="@drawable/anonymous_user_circle_icon_vector_18958255_removebg_preview"
                 android:layout_marginTop="20sp"
-                />
+                android:src="@drawable/anonymous_user_circle_icon_vector_18958255_removebg_preview" />
 
             <Button
                 android:id="@+id/medIdBtn"

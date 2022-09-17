@@ -7,4 +7,13 @@
     <string name="ht1_btn_bmi">BMI CALCULATOR</string>
     <string name="ht2_title">NO AVAILABLE MEDICAL ID</string>
     <string name="ht2_btn">CREATE</string>
+    <string name="ht3_title">MEDICAL DETAILS</string>
+    <string name="ht3_caption">All your medical information in one place!</string>
+    <string name="ht3_hint_name">Enter your name</string>
+    <string name="ht3_hint_birthday">Enter your Birth Day</string>
+    <string name="ht3_hint_height">Height</string>
+    <string name="ht3_hint_weight">Weight</string>
+    <string name="ht3_hint_blood">Blood Group</string>
+    <string name="ht3_hint_info">Additional Medical Info</string>
+    <string name="ht3_btn_submit">SUBMIT DETAILS</string>
 </resources>
