@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MADproject</string>
+    <string name="ht1_title">HEALTH TRACKER</string>
+    <string name="ht1_caption">Keep all your medical details here</string>
+    <string name="ht1_btn_medId">MEDICAL ID</string>
+    <string name="ht1_btn_medcation">MEDICATION TRACKER</string>
+    <string name="ht1_btn_bmi">BMI CALCULATOR</string>
 </resources>

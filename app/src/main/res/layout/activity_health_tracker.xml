@@ -1,9 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HealthTracker">
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingHorizontal="50dp"
+    android:paddingBottom="0dp"
+    android:background="@drawable/gradient_background"
+    tools:context=".Medical.HealthTracker"
+  >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/ht1_title"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textFontWeight="900"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/ht1_caption"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/ht1_img"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginVertical="25sp"
+        android:src="@drawable/group_medical_staff_carrying_health_related_icons_53876_43071_removebg_preview" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <Button
+        android:id="@+id/medIdBtn"
+        android:layout_width="match_parent"
+        android:layout_height="28pt"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/ht1_btn_medId"
+        android:textSize="15sp"
+        android:backgroundTint="@color/redBtn"
+        style="@style/Widget.Material3.Button"
+        />
+    <Button
+        android:id="@+id/medTrackerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="28pt"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/ht1_btn_medcation"
+        android:textSize="15sp"
+        android:backgroundTint="@color/greenBtn"
+        style="@style/Widget.Material3.Button"
+        />
+
+    <Button
+        android:id="@+id/bmiBtn"
+        android:layout_width="match_parent"
+        android:layout_height="28pt"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/ht1_btn_bmi"
+        android:textSize="15sp"
+        android:backgroundTint="@color/blueBtn"
+        style="@style/Widget.Material3.Button"/>
+</LinearLayout>
+
+</LinearLayout>
