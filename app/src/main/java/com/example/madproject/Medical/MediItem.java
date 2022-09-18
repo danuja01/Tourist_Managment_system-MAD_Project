@@ -1,4 +1,4 @@
-package com.example.madproject;
+package com.example.madproject.Medical;
 
 public class MediItem {
     private String medication;

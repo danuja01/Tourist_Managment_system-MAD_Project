@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.madproject.Medication;
 import com.example.madproject.R;
 
 public class HealthTracker extends AppCompatActivity {

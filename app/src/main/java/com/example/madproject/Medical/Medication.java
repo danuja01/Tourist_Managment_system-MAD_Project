@@ -1,4 +1,4 @@
-package com.example.madproject;
+package com.example.madproject.Medical;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -9,7 +9,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.madproject.Medical.CreateMedId;
+import com.example.madproject.MainActivity;
+import com.example.madproject.R;
 
 import java.util.ArrayList;
 
