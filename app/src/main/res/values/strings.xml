@@ -33,4 +33,7 @@
     <string name="ht5_hint_daytime">morning/night</string>
     <string name="ht5_hint_time">time(10.00)</string>
     <string name="ht5_hint_ampm">am/pm</string>
+    <string name="ht6_title">MEDICATIONS</string>
+    <string name="ht6_caption">Track you medication times!</string>
+    <string name="ht6_search">SEARCH MEDICATIONS</string>
 </resources>

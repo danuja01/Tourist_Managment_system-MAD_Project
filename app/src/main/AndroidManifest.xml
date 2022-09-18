@@ -14,6 +14,9 @@
         android:theme="@style/Theme.MADproject"
         tools:targetApi="31">
         <activity
+            android:name=".Medication"
+            android:exported="false" />
+        <activity
             android:name=".Medical.MedicationForm"
             android:exported="false" />
         <activity

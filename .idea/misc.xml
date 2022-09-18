@@ -6,6 +6,8 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/custom_input.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/gradient_background.xml" value="0.328" />
+        <entry key="app/src/main/res/drawable/ic_icons8_trash_can_250.xml" value="0.159" />
+        <entry key="app/src/main/res/drawable/ic_icons8_trash_can_50.xml" value="0.252" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/shadow_img.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_create_med_id.xml" value="0.287823486328125" />
@@ -14,7 +16,9 @@
         <entry key="app/src/main/res/layout/activity_health_tracker.xml" value="0.21559633027522937" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2712962962962963" />
         <entry key="app/src/main/res/layout/activity_med_id.xml" value="0.2865927082218535" />
+        <entry key="app/src/main/res/layout/activity_medication.xml" value="0.2949371337890625" />
         <entry key="app/src/main/res/layout/activity_medication_form.xml" value="0.2601851851851852" />
+        <entry key="app/src/main/res/layout/item_todo.xml" value="0.395247874540441" />
       </map>
     </option>
   </component>

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.madproject.Medication;
 import com.example.madproject.R;
 
 public class HealthTracker extends AppCompatActivity {
@@ -22,7 +23,7 @@ public class HealthTracker extends AppCompatActivity {
     }
 
     public void clickMedication(View v) {
-        Intent medication = new Intent(this, MedicationForm.class);
+        Intent medication = new Intent(this, Medication.class);
         startActivity(medication);
     }
 }
