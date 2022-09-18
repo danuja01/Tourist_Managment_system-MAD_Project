@@ -74,14 +74,15 @@
 
     <Button
         android:id="@+id/bmiBtn"
+        style="@style/Widget.Material3.Button"
         android:layout_width="match_parent"
         android:layout_height="28pt"
         android:layout_marginBottom="10sp"
-        android:fontFamily="@font/poppins_medium"
-        android:text="@string/ht1_btn_bmi"
-        android:textSize="15sp"
         android:backgroundTint="@color/blueBtn"
-        style="@style/Widget.Material3.Button"/>
+        android:fontFamily="@font/poppins_medium"
+        android:onClick="clickBmi"
+        android:text="@string/ht1_btn_bmi"
+        android:textSize="15sp" />
 </LinearLayout>
 
 </LinearLayout>

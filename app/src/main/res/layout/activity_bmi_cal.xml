@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:paddingHorizontal="50dp"
+    android:paddingTop="50dp"
+    android:paddingBottom="0dp"
+    tools:context=".BmiCal">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/ht5_title"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textFontWeight="900"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/ht5_caption"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/kk" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_input"
+            android:hint="@string/ht5_hint_name"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_input"
+            android:hint="@string/ht5_hint_daytime"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+
+        <Button
+            android:id="@+id/medIdBtn"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/ht3_btn_submit"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

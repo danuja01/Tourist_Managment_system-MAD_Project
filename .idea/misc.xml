@@ -10,6 +10,7 @@
         <entry key="app/src/main/res/drawable/ic_icons8_trash_can_50.xml" value="0.252" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/shadow_img.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_bmi_cal.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/activity_create_med_id.xml" value="0.287823486328125" />
         <entry key="app/src/main/res/layout/activity_empty_med_id.xml" value="0.26623026529947913" />
         <entry key="app/src/main/res/layout/activity_empty_medical_id.xml" value="0.24597625732421877" />

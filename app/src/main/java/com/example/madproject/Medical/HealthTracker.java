@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.madproject.BmiCal;
 import com.example.madproject.R;
 
 public class HealthTracker extends AppCompatActivity {
@@ -24,5 +25,10 @@ public class HealthTracker extends AppCompatActivity {
     public void clickMedication(View v) {
         Intent medication = new Intent(this, Medication.class);
         startActivity(medication);
+    }
+
+    public void clickBmi(View v) {
+        Intent BMI = new Intent(this, BmiCal.class);
+        startActivity(BMI);
     }
 }
