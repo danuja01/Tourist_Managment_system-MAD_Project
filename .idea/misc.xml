@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../../../layout/custom_preview.xml" value="0.1955420466058764" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/custom_input.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/gradient_background.xml" value="0.328" />
@@ -10,16 +11,21 @@
         <entry key="app/src/main/res/drawable/ic_icons8_trash_can_50.xml" value="0.252" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1385" />
         <entry key="app/src/main/res/drawable/shadow_img.xml" value="0.18" />
-        <entry key="app/src/main/res/layout/activity_bmi_cal.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_bmi_cal.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_create_med_id.xml" value="0.287823486328125" />
         <entry key="app/src/main/res/layout/activity_empty_med_id.xml" value="0.26623026529947913" />
         <entry key="app/src/main/res/layout/activity_empty_medical_id.xml" value="0.24597625732421877" />
-        <entry key="app/src/main/res/layout/activity_health_tracker.xml" value="0.21559633027522937" />
+        <entry key="app/src/main/res/layout/activity_health_tracker.xml" value="0.28714936982601064" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2712962962962963" />
-        <entry key="app/src/main/res/layout/activity_med_id.xml" value="0.2865927082218535" />
-        <entry key="app/src/main/res/layout/activity_medication.xml" value="0.2949371337890625" />
+        <entry key="app/src/main/res/layout/activity_med_id.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_medication.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_medication_form.xml" value="0.2601851851851852" />
-        <entry key="app/src/main/res/layout/item_todo.xml" value="0.395247874540441" />
+        <entry key="app/src/main/res/layout/fragment_empty.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_empty_medical_id.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_medical_id.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/item_todo.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.174" />
       </map>
     </option>
   </component>

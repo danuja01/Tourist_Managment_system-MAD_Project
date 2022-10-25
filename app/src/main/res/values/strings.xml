@@ -24,7 +24,7 @@
     <string name="ht4_height">Height</string>
     <string name="ht4_weight">Weight</string>
     <string name="ht4_blood">Blood Group</string>
-    <string name="ht4_info">ADITIONAL INFORMATION</string>
+    <string name="ht4_info">ADDITIONAL INFORMATION</string>
     <string name="ht4_btn_update">UPDATE</string>
     <string name="ht4_btn_delete">DELETE</string>
     <string name="ht5_title">MEDICATION DETAILS</string>
@@ -36,4 +36,11 @@
     <string name="ht6_title">MEDICATIONS</string>
     <string name="ht6_caption">Track you medication times!</string>
     <string name="ht6_search">SEARCH MEDICATIONS</string>
+    <string name="ht7_title1">BMI</string>
+    <string name="ht7_title2">CALCULATOR</string>
+    <string name="ht7_hint_weight">Enter Weight</string>
+    <string name="ht7_hint_height">Enter Height</string>
+    <string name="ht7_hint_btn">CALCULATE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
