@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:paddingHorizontal="30dp"
+    android:paddingTop="50dp"
+    android:paddingBottom="0dp"
+    tools:context=".Medical.HealthTracker">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardWhite"
+        app:cardElevation="0dp"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.CardView">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/ht2_title"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textFontWeight="900"
+                android:textSize="32sp"
+
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:layout_marginTop="20sp"
+                android:src="@drawable/anonymous_user_circle_icon_vector_18958255_removebg_preview" />
+
+            <Button
+                android:id="@+id/medIdBtn"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="match_parent"
+                android:layout_height="28pt"
+                android:layout_marginVertical="30sp"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint="@color/redBtn"
+                android:fontFamily="@font/poppins_medium"
+                android:onClick="click"
+                android:text="@string/ht2_btn"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
+

@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">MADproject</string>
+    <string name="colon">:</string>
+    <string name="ht1_title">HEALTH TRACKER</string>
+    <string name="ht1_caption">Keep all your medical details here</string>
+    <string name="ht1_btn_medId">MEDICAL ID</string>
+    <string name="ht1_btn_medcation">MEDICATION TRACKER</string>
+    <string name="ht1_btn_bmi">BMI CALCULATOR</string>
+    <string name="ht2_title">NO AVAILABLE MEDICAL ID</string>
+    <string name="ht2_btn">CREATE</string>
+    <string name="ht3_title">MEDICAL DETAILS</string>
+    <string name="ht3_caption">All your medical information in one place!</string>
+    <string name="ht3_hint_name">Enter your name</string>
+    <string name="ht3_hint_birthday">Enter your Birth Day</string>
+    <string name="ht3_hint_height">Height</string>
+    <string name="ht3_hint_weight">Weight</string>
+    <string name="ht3_hint_blood">Blood Group</string>
+    <string name="ht3_hint_info">Additional Medical Info</string>
+    <string name="ht3_btn_submit">SUBMIT DETAILS</string>
+    <string name="ht4_title">MEDICAL ID</string>
+    <string name="ht4_caption">All your medical Details</string>
+    <string name="ht4_name">Name</string>
+    <string name="ht4_Age">Age</string>
+    <string name="ht4_height">Height</string>
+    <string name="ht4_weight">Weight</string>
+    <string name="ht4_blood">Blood Group</string>
+    <string name="ht4_info">ADDITIONAL INFORMATION</string>
+    <string name="ht4_btn_update">UPDATE</string>
+    <string name="ht4_btn_delete">DELETE</string>
+    <string name="ht5_title">MEDICATION DETAILS</string>
+    <string name="ht5_caption">Enter your medication details</string>
+    <string name="ht5_hint_name">name of the medication</string>
+    <string name="ht5_hint_daytime">morning/night</string>
+    <string name="ht5_hint_time">time(10.00)</string>
+    <string name="ht5_hint_ampm">am/pm</string>
+    <string name="ht6_title">MEDICATIONS</string>
+    <string name="ht6_caption">Track you medication times!</string>
+    <string name="ht6_search">SEARCH MEDICATIONS</string>
+    <string name="ht7_title1">BMI</string>
+    <string name="ht7_title2">CALCULATOR</string>
+    <string name="ht7_hint_weight">Enter Weight</string>
+    <string name="ht7_hint_height">Enter Height</string>
+    <string name="ht7_hint_btn">CALCULATE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

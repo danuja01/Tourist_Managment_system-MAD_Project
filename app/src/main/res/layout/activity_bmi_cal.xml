@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:paddingHorizontal="50dp"
+    android:paddingTop="30dp"
+    android:paddingBottom="0dp"
+    tools:context=".Medical.BmiCal">
+
+    <TextView
+        android:id="@+id/title1"
+        style="@style/TextShadowStyle"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:fontFamily="@font/poppins_bold"
+        android:shadowColor="@color/black"
+        android:text="@string/ht7_title1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textFontWeight="700"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/title2"
+        style="@style/TextShadowStyle"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:fontFamily="@font/poppins_bold"
+        android:shadowColor="@color/black"
+        android:text="@string/ht7_title2"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textFontWeight="700"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/kk" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_input"
+            android:hint="@string/ht7_hint_weight"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_input"
+            android:hint="@string/ht7_hint_height"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+
+        <Button
+            android:id="@+id/medIdBtn"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/ht7_hint_btn"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
