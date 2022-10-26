@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/drawable/box.xml" value="0.2595" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/drawable/gradientbackground.xml" value="0.2585" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/drawable/roundedbutton.xml" value="0.2585" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/drawable/textborder.xml" value="0.2585" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_addtransaction.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_budget_calculater.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_health_tracker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_main.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_personal_note.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/add_note.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/addtransaction.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/budgetcal.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/budgethome.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/personal_note.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/update_note.xml" value="0.24010416666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2712962962962963" />
       </map>
     </option>

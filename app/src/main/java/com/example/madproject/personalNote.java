@@ -6,27 +6,24 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class personalNote extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.budgethome);
+        setContentView(R.layout.personal_note);
     }
 
-    public void budgetcalclick(View v){
-        Intent intent = new Intent(this, BudgetCalculater.class);
+
+    public void EditClick(View v){
+        Intent intent = new Intent(this, updateNote.class);
         startActivity(intent);
     }
 
-
-
-    public void personalnoteclick(View v){
-        Intent intent = new Intent(this, personalNote.class);
+    public void addnewClick(View v){
+        Intent intent = new Intent(this, AddNote.class);
         startActivity(intent);
     }
-
-
 
 
 

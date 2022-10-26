@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MADproject</string>
+    <string name="budgetCalButton">Budget Calculater</string>
+    <string name="PersonalNButton">Personal Note</string>
+    <string name="addbutton">Add</string>
+    <string name="amount">Amount</string>
+    <string name="noteinput">Note</string>
+    <string name="addtrans">ADD</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="notename">Note Name</string>
+    <string name="backbutton">BACK</string>
+    <string name="notenameupdate">Note name</string>
+    <string name="updatenotetextarea">Updated Note</string>
+    <string name="editbut">EDIT</string>
 </resources>
