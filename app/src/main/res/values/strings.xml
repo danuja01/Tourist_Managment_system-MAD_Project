@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">MADproject</string>
+    <string name="feedback_home">Feedback and Reviews</string>
+    <string name="createFeedbackButton">Create Own Feedback</string>
+    <string name="viewFeedbackButton">View All Feedbacks</string>
+    <string name="title_activity_create_feedbacks">create_feedbacks</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="personalFeedbacks">Personal feedbacks</string>
+    <string name="destination_name">Destination name</string>
+    <string name="rateExperience">Please rate your experience</string>
+    <string name="terrible">Terrible</string>
+    <string name="bad">Bad</string>
+    <string name="good">Good</string>
+    <string name="moderate">Moderate</string>
+    <string name="awesome">Awesome</string>
+    <string name="enjoy">Which part did you enjoy most?</string>
+    <string name="comments">Any additional Comments?</string>
+    <string name="save">Save</string>
+    <string name="viewFeedbacks">View my feedbacks</string>
+    <string name="updateFeedbacks">Update Feedbacks</string>
+    <string name="experience">Experience</string>
+    <string name="enjoyable">Enjoyable Part</string>
+    <string name="updateComments">Additional Comments</string>
+    <string name="updateBtn">Update</string>
+    <string name="destinationDetails">Destination name : Ella</string>
+    <string name="destination">Destination</string>
+    <string name="experienceView">Experience</string>
+    <string name="enjoyableView" />
+    <string name="commentsView" />
+    <string name="update">Update</string>
+    <string name="removeBtn">Remove</string>
+    <string name="experienceGet">Experience : Awesome</string>
+    <string name="enjoyGet">Enjoyable Part : Surrounding</string>
+    <string name="commentsHave">Comments  : Ella Nature view was for me                       the best hotel experience in Sri Lanka.</string>
+    <string name="weatherTopic">Weather Condition</string>
+    <string name="tempratureKey">Enter temprature in Celcius</string>
+    <string name="farenhiteKey">Temprature in Farenhite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

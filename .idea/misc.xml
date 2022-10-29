@@ -3,6 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/drawable-mdpi/gradient_background.xml" value="0.2555" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/drawable/box.xml" value="0.2545" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/drawable/rounded_button.xml" value="0.112" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_create_feedback.xml" value="0.264" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_create_feedbacks.xml" value="0.6" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_delete_feedback.xml" value="0.25" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_feedback_home.xml" value="0.2" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_health_tracker.xml" value="0.536" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_main.xml" value="0.12105263157894737" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_update_feedback.xml" value="0.264" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_update_feedbacks.xml" value="0.25" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_view_feedbacks.xml" value="0.264" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/activity_weather_condition.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/feedback_item.xml" value="0.264" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/fragment_feedback__home_1.xml" value="0.25" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/list_row.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/layout/list_view.xml" value="0.17905918057663125" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/menu/bottom_navigation.xml" value="0.24895833333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2712962962962963" />
       </map>
     </option>
