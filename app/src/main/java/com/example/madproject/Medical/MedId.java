@@ -33,9 +33,6 @@ public class MedId extends AppCompatActivity {
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference("medId");
 
-
-
-
         getMedId();
     }
 
