@@ -1,15 +1,19 @@
 package com.example.madproject.Medical;
 
 public class MedicationModel {
-    String name, period, time;
+    String name;
+    String period;
+    String time;
+    String id;
 
     public MedicationModel() {
     }
 
-    public MedicationModel(String name, String period, String time) {
+    public MedicationModel(String name, String period, String time, String id) {
         this.name = name;
         this.period = period;
         this.time = time;
+        this.id = id;
     }
 
     public String getName() {
@@ -35,4 +39,13 @@ public class MedicationModel {
     public void setTime(String time) {
         this.time = time;
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
 }

@@ -18,6 +18,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Login extends AppCompatActivity {
 
@@ -27,6 +28,7 @@ public class Login extends AppCompatActivity {
 
     private FirebaseAuth fAuth;
     private ProgressDialog loader;
+    private FirebaseAuth.AuthStateListener authStateListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,13 +36,26 @@ public class Login extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_login);
 
+        fAuth = FirebaseAuth.getInstance();
+
+        authStateListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser user = fAuth.getCurrentUser();
+                if(user != null){
+                    Intent intent = new Intent(Login.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
+            }
+        };
+
+        loader = new ProgressDialog(this);
+
         email = findViewById(R.id.loginEmail);
         pass = findViewById(R.id.loginPassword);
         loginBtn = findViewById(R.id.loginBtn);
         loginQ = findViewById(R.id.regQ);
-
-        fAuth = FirebaseAuth.getInstance();
-        loader = new ProgressDialog(this);
 
         loginQ.setOnClickListener(new View.OnClickListener() {
             @Override
