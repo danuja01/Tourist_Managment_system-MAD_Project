@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -7,13 +8,14 @@
     android:paddingTop="16dp"
     android:paddingBottom="0dp">
 
+
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_bold"
         android:padding="3dp"
-        android:text="@string/input_title"
+        android:text="@string/title_update"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textFontWeight="900"
@@ -45,7 +47,7 @@
             android:layout_weight="4">
 
             <EditText
-                android:id="@+id/medcineName"
+                android:id="@+id/updateMedicineName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -87,7 +89,7 @@
             android:layout_weight="2">
 
             <EditText
-                android:id="@+id/medicationTime"
+                android:id="@+id/updateMedicationTime"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -109,19 +111,19 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                    <RadioButton
-                        android:id="@+id/am"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="am" />
+                <RadioButton
+                    android:id="@+id/uAm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="am" />
 
-                    <RadioButton
-                        android:id="@+id/pm"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="pm" />
+                <RadioButton
+                    android:id="@+id/uPm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="pm" />
 
             </RadioGroup>
         </RelativeLayout>
@@ -133,7 +135,7 @@
         android:layout_gravity="right"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/mediCancel"
+            android:id="@+id/updateMediCancel"
             style="@style/Widget.Material3.Button"
             android:layout_width="wrap_content"
             android:layout_gravity="center"
@@ -143,10 +145,11 @@
 
             android:backgroundTint="@color/redBtn"
             android:fontFamily="@font/poppins_medium"
-            android:text="CANCEL"
+            android:text="DELETE"
+            android:paddingHorizontal="40dp"
             android:textSize="15sp" />
         <Button
-            android:id="@+id/mediSubmit"
+            android:id="@+id/updateMediSubmit"
             style="@style/Widget.Material3.Button"
             android:layout_width="wrap_content"
             android:layout_gravity="center"
@@ -154,10 +157,9 @@
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/black"
             android:fontFamily="@font/poppins_medium"
-            android:text="ADD"
+            android:text="UPDATE"
             android:paddingHorizontal="38dp"
             android:textSize="15sp" />
     </LinearLayout>
-
 
 </LinearLayout>
