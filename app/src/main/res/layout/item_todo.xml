@@ -8,6 +8,7 @@
     android:background="@color/cardWhite"
     android:padding="5dp">
 
+
     <TextView
         android:id="@+id/medItm"
         android:layout_width="wrap_content"
@@ -17,17 +18,17 @@
         android:paddingRight="10dp"
         android:text="Parasitamol"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.392" />
+        app:layout_constraintVertical_bias="0.246" />
 
     <TextView
         android:id="@+id/period"
         android:layout_width="0dp"
         android:layout_height="15dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="20dp"
         android:fontFamily="@font/poppins_medium"
         android:paddingRight="10dp"
         android:text="Morning"
@@ -41,7 +42,7 @@
         android:layout_width="0dp"
         android:layout_height="15dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="20dp"
         android:fontFamily="@font/poppins_medium"
         android:paddingRight="10dp"
         android:text="6.00 am"
@@ -49,8 +50,6 @@
         android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView4" />
-
-
 
     <ImageView
         android:id="@+id/imageView4"
