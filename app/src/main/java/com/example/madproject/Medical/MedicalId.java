@@ -37,8 +37,8 @@ public class MedicalId extends Fragment {
 
         medName.setText(myMedId.getName());
         age.setText(Integer.toString(myMedId.getAge()));
-        height.setText(Double.toString(myMedId.getHeight()));
-        weight.setText(Double.toString(myMedId.getWeight()));
+        height.setText(Double.toString(myMedId.getHeight()) + " cm");
+        weight.setText(Double.toString(myMedId.getWeight()) + " kg");
         bGroup.setText(myMedId.getbGroup());
         info.setText(myMedId.getInfo());
 

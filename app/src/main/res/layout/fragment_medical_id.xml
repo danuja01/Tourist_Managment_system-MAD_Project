@@ -227,7 +227,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/yellowBtn"
             android:fontFamily="@font/poppins_medium"
-            android:text="@string/ht1_btn_medId"
+            android:text="@string/ht4_btn_update"
             android:textSize="15sp" />
 
         <Button
@@ -240,7 +240,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/redBtn"
             android:fontFamily="@font/poppins_medium"
-            android:text="@string/ht1_btn_medId"
+            android:text="@string/ht4_btn_delete"
             android:textSize="15sp" />
 
     </LinearLayout>
