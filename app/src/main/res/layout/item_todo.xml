@@ -61,16 +61,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/flat_orange_healthcare_medicine_pill_icon_11586734268aeqop5pkhj_removebg_preview" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
-        android:layout_marginEnd="16dp"
-        android:background="#FFFFFF"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icons8_trash_can_50" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
