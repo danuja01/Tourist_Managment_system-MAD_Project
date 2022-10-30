@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_MAD_Project/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_MAD_Project/app/src/main/res/layout/activity_view_feedbacks.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_MAD_Project/app/src/main/res/layout/activity_weather_condition.xml" value="0.1203125" />
         <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/drawable-mdpi/gradient_background.xml" value="0.2555" />
         <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/drawable/box.xml" value="0.2545" />
         <entry key="..\:/Users/Senula Nanayakkara/AndroidStudioProjects/Tourist_Managment_system-MAD_Project/app/src/main/res/drawable/rounded_button.xml" value="0.112" />
