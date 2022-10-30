@@ -2,9 +2,9 @@ package com.example.madproject.Medical;
 
 public class MedIdModel {
     String name;
-    int age;
-    double height;
-    double weight;
+    String age;
+    String height;
+    String weight;
     String bGroup;
     String info;
 
@@ -12,7 +12,7 @@ public class MedIdModel {
 
     }
 
-    public MedIdModel(String name, int age, double height, double weight, String bGroup, String info) {
+    public MedIdModel(String name, String age, String height, String weight, String bGroup, String info) {
         this.name = name;
         this.age = age;
         this.height = height;
@@ -29,27 +29,27 @@ public class MedIdModel {
         this.name = name;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 
-    public double getHeight() {
+    public String getHeight() {
         return height;
     }
 
-    public void setHeight(double height) {
+    public void setHeight(String height) {
         this.height = height;
     }
 
-    public double getWeight() {
+    public String getWeight() {
         return weight;
     }
 
-    public void setWeight(double weight) {
+    public void setWeight(String weight) {
         this.weight = weight;
     }
 

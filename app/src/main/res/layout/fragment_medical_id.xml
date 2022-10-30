@@ -218,6 +218,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/updateMed"
             style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -231,6 +232,7 @@
             android:textSize="15sp" />
 
         <Button
+            android:id="@+id/deleteMed"
             style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

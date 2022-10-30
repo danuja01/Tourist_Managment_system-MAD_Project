@@ -55,7 +55,6 @@
                 android:layout_marginBottom="10sp"
                 android:backgroundTint="@color/redBtn"
                 android:fontFamily="@font/poppins_medium"
-                android:onClick="click"
                 android:text="@string/ht2_btn"
                 android:textSize="20sp" />
 
