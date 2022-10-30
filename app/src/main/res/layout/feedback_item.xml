@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="415dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:layout_gravity="center_horizontal"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="#000000"
+            app:civ_border_width="1.5dp" />
+
+        <TextView
+            android:id="@+id/destinationKey"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/img1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Destination : "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/destinationtext"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/img1"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/destinationKey"
+            android:text="Destination Name"
+            android:textColor="#736B5F"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/ratingKey"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/destinationKey"
+            android:layout_marginLeft="10dp"
+            android:text="Rating : "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ratetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/destinationKey"
+            android:layout_marginLeft="0dp"
+            android:layout_toRightOf="@id/ratingKey"
+            android:text="Rating"
+            android:textColor="#736B5F"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/enjoyableKey"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/ratingKey"
+            android:layout_marginLeft="10dp"
+            android:text="Enjoyable : "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/enjoyabletext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingKey"
+            android:layout_marginLeft="0dp"
+            android:layout_toRightOf="@id/enjoyableKey"
+            android:text="Enjoyable Part"
+            android:textColor="#736B5F"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/additionalKey"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/enjoyableKey"
+            android:layout_marginLeft="10dp"
+            android:text="Comments : "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/additionaltext"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enjoyableKey"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@id/additionalKey"
+            android:text="Comments "
+            android:textColor="#736B5F"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/additionaltext"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#3092F3"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#E32771"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+            >
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
