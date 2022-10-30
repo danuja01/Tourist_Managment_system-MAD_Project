@@ -14,13 +14,10 @@
         android:theme="@style/Theme.MADproject"
         tools:targetApi="31">
         <activity
-            android:name=".updateNote"
+            android:name=".NoteArrayAdapter"
             android:exported="false" />
         <activity
-            android:name=".AddNote"
-            android:exported="false" />
-        <activity
-            android:name=".personalNote"
+            android:name=".PersonalNote"
             android:exported="false" />
         <activity
             android:name=".addtransaction"

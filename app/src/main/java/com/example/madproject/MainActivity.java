@@ -15,14 +15,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void budgetcalclick(View v){
-        Intent intent = new Intent(this, BudgetCalculater.class);
+        Intent intent = new Intent(this, addtransaction.class);
         startActivity(intent);
     }
 
 
 
     public void personalnoteclick(View v){
-        Intent intent = new Intent(this, personalNote.class);
+        Intent intent = new Intent(this, PersonalNote.class);
         startActivity(intent);
     }
 
