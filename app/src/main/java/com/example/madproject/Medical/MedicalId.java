@@ -1,12 +1,16 @@
 package com.example.madproject.Medical;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.madproject.R;
@@ -35,13 +39,28 @@ public class MedicalId extends Fragment {
         bGroup = view.findViewById(R.id.bGroup);
         info = view.findViewById(R.id.medInfo);
 
-        medName.setText(myMedId.getName());
-        age.setText(Integer.toString(myMedId.getAge()));
-        height.setText(Double.toString(myMedId.getHeight()) + " cm");
-        weight.setText(Double.toString(myMedId.getWeight()) + " kg");
-        bGroup.setText(myMedId.getbGroup());
-        info.setText(myMedId.getInfo());
+        if(myMedId != null){
+            medName.setText(myMedId.getName());
+            age.setText(myMedId.getAge());
+            height.setText(myMedId.getHeight());
+            weight.setText(myMedId.getWeight());
+            bGroup.setText(myMedId.getbGroup());
+            info.setText(myMedId.getInfo());
+        }
 
         return view;
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        Button button = (Button) view.findViewById(R.id.updateMed);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent medId = new Intent(getActivity(), UpdateMedId.class);
+                startActivity(medId);
+            }
+        });
     }
 }

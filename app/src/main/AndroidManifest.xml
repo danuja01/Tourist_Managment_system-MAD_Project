@@ -16,6 +16,9 @@
         android:theme="@style/Theme.MADproject"
         tools:targetApi="31">
         <activity
+            android:name=".Medical.UpdateMedId"
+            android:exported="false" />
+        <activity
             android:name=".Registration"
             android:exported="false" />
         <activity

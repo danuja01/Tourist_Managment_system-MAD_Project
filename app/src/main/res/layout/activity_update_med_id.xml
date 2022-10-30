@@ -9,14 +9,14 @@
     android:paddingHorizontal="50dp"
     android:paddingTop="50dp"
     android:paddingBottom="0dp"
-    tools:context=".Medical.CreateMedId">
+    tools:context=".Medical.UpdateMedId">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_bold"
-        android:text="@string/ht3_title"
+        android:text="Update Medical ID"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textFontWeight="900"
@@ -45,7 +45,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/addName"
+            android:id="@+id/updateAddName"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/custom_input"
@@ -54,7 +54,7 @@
             android:padding="15dp" />
 
         <EditText
-            android:id="@+id/addAge"
+            android:id="@+id/updateAddAge"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
@@ -69,7 +69,7 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/addHeight"
+                android:id="@+id/updateAddHeight"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
@@ -84,7 +84,7 @@
                 />
 
             <EditText
-                android:id="@+id/addWeight"
+                android:id="@+id/updateAddWeight"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_marginLeft="2.5dp"
@@ -97,7 +97,7 @@
         </LinearLayout>
 
         <EditText
-            android:id="@+id/addBloodType"
+            android:id="@+id/updateAddBloodType"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="2.5dp"
@@ -108,7 +108,7 @@
             android:padding="15dp" />
 
         <EditText
-            android:id="@+id/addInfo"
+            android:id="@+id/updateAddInfo"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="2.5dp"
@@ -119,14 +119,14 @@
             android:padding="15dp" />
 
         <Button
-            android:id="@+id/creatButton"
+            android:id="@+id/updateMedButton"
             style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/black"
             android:fontFamily="@font/poppins_medium"
-            android:text="@string/ht3_btn_submit"
+            android:text="SUBMIT UPDATE"
             android:textSize="15sp" />
 
     </LinearLayout>
