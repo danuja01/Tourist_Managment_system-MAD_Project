@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Travel Log</string>
+    <string name="travellog">Travel_log</string>
+    <string name="sheduletrip">Shedule Your Trip Plan</string>
+    <string name="shduletripbutton">SHEDULE TRIP</string>
+    <string name="mytrips">My Trips</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+    <string name="updateyourtrip">Update Your Trip</string>
+    <string name="update">Update Trip</string>
+</resources>
